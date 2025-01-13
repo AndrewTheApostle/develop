@@ -1,4 +1,4 @@
-package ru.iac.hakaton.neirostorm.configuration;
+package ru.neirostorm.configuration;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;

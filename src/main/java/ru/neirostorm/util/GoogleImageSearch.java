@@ -1,4 +1,4 @@
-package ru.iac.hakaton.neirostorm.util;
+package ru.neirostorm.util;
 
 import java.io.IOException;
 import org.jsoup.Jsoup;

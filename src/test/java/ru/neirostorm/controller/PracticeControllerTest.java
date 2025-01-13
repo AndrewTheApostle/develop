@@ -1,4 +1,4 @@
-package ru.iac.hakaton.neirostorm.controller;
+package ru.neirostorm.controller;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -8,9 +8,9 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
-import ru.iac.hakaton.neirostorm.model.Practice;
-import ru.iac.hakaton.neirostorm.service.PracticeService;
-import ru.iac.hakaton.neirostorm.repository.VoteRepository;
+import ru.neirostorm.model.Practice;
+import ru.neirostorm.service.PracticeService;
+import ru.neirostorm.repository.VoteRepository;
 
 import java.util.Arrays;
 import java.util.List;
@@ -84,6 +84,4 @@ public class PracticeControllerTest {
 
         verify(practiceService, times(1)).getPracticeById(1L);
     }
-
-    // Add more test cases for other methods as needed
 }

@@ -100,7 +100,7 @@
 
                     <p class="card-text" th:text="${practice.description}"></p>
 
-                    <div class="mt-auto" th:with="dn=${T(ru.iac.hakaton.neirostorm.model.Topic).fromName(practice.topic).displayName}">
+                    <div class="mt-auto" th:with="dn=${T(ru.neirostorm.model.Topic).fromName(practice.topic).displayName}">
 
                         <span th:text="${dn}" th:class="${ 'badge rounded-pill border w-50 ' + (dn == 'Разработка' ? 'text-primary border-primary' : dn == 'Анализ' ? 'text-success border-success' : dn == 'Тестирование' ? 'text-danger border-danger' : dn == 'Документирование' ? 'text-info border-info' : 'text-warning border-warning')}"></span>
                         <!--

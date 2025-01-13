@@ -1,4 +1,4 @@
-package ru.iac.hakaton.neirostorm;
+package ru.neirostorm;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

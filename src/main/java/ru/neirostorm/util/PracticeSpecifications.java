@@ -1,8 +1,9 @@
-package ru.iac.hakaton.neirostorm.util;
+package ru.neirostorm.util;
 
 import org.springframework.data.jpa.domain.Specification;
-import ru.iac.hakaton.neirostorm.model.Practice;
-import ru.iac.hakaton.neirostorm.model.Topic;
+import ru.neirostorm.model.Practice;
+import ru.neirostorm.model.Topic;
+import ru.neirostorm.model.Practice;
 
 public class PracticeSpecifications {
     public static Specification<Practice> title(String keyword) {

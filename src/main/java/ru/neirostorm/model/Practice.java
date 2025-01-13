@@ -1,4 +1,4 @@
-package ru.iac.hakaton.neirostorm.model;
+package ru.neirostorm.model;
 
 import lombok.Builder;
 import lombok.Data;

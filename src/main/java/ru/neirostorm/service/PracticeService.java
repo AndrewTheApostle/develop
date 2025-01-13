@@ -1,14 +1,16 @@
-package ru.iac.hakaton.neirostorm.service;
+package ru.neirostorm.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
-import ru.iac.hakaton.neirostorm.dto.PracticeDto;
-import ru.iac.hakaton.neirostorm.model.Practice;
-import ru.iac.hakaton.neirostorm.repository.PracticeRepository;
-import ru.iac.hakaton.neirostorm.util.GoogleImageSearch;
-import ru.iac.hakaton.neirostorm.util.PracticeSpecifications;
+import ru.neirostorm.dto.PracticeDto;
+import ru.neirostorm.model.Practice;
+import ru.neirostorm.repository.PracticeRepository;
+import ru.neirostorm.util.GoogleImageSearch;
+import ru.neirostorm.util.PracticeSpecifications;
+import ru.neirostorm.model.Practice;
+import ru.neirostorm.repository.PracticeRepository;
 
 import java.io.IOException;
 import java.time.LocalDateTime;

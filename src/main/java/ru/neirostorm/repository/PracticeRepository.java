@@ -1,11 +1,11 @@
-package ru.iac.hakaton.neirostorm.repository;
+package ru.neirostorm.repository;
 
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
-import ru.iac.hakaton.neirostorm.model.Practice;
+import ru.neirostorm.model.Practice;
 
 import java.util.List;
 

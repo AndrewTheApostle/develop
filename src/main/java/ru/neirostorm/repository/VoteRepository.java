@@ -1,8 +1,8 @@
-package ru.iac.hakaton.neirostorm.repository;
+package ru.neirostorm.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.iac.hakaton.neirostorm.model.Vote;
+import ru.neirostorm.model.Vote;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,8 +1,8 @@
-package ru.iac.hakaton.neirostorm.dto;
+package ru.neirostorm.dto;
 
 import lombok.Builder;
 import lombok.Data;
-import ru.iac.hakaton.neirostorm.model.Topic;
+import ru.neirostorm.model.Topic;
 
 import javax.validation.constraints.NotNull;
 

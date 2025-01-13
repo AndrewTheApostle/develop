@@ -1,4 +1,4 @@
-package ru.iac.hakaton.neirostorm.controller;
+package ru.neirostorm.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -7,12 +7,14 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import ru.iac.hakaton.neirostorm.dto.PracticeDto;
-import ru.iac.hakaton.neirostorm.model.Practice;
-import ru.iac.hakaton.neirostorm.model.Topic;
-import ru.iac.hakaton.neirostorm.model.Vote;
-import ru.iac.hakaton.neirostorm.repository.VoteRepository;
-import ru.iac.hakaton.neirostorm.service.PracticeService;
+import ru.neirostorm.dto.PracticeDto;
+import ru.neirostorm.model.Practice;
+import ru.neirostorm.model.Topic;
+import ru.neirostorm.model.Vote;
+import ru.neirostorm.repository.VoteRepository;
+import ru.neirostorm.service.PracticeService;
+import ru.neirostorm.model.Practice;
+import ru.neirostorm.repository.VoteRepository;
 
 import javax.validation.Valid;
 import java.util.Collections;

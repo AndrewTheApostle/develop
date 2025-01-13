@@ -1,4 +1,4 @@
-package ru.iac.hakaton.neirostorm;
+package ru.neirostorm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
